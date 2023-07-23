@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v26/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_N_XbMZhLw.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v26/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQbMZhLw.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+}
+
+.theme-dark {
+  --text-color: #fafafa;
+  --add-card-bg: #25273c;
+  --shadow-card-bg: #393a4c;
+  --text-color-dark: #4d5066;
+  --active-link: hsl(220, 98%, 61%);
+  --completed-task: #4d5066;
+  --bg-color: #181824;
+  --line-card: #393a4c;
+  --bg-color-check: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+.theme-light {
+  --text-color: #484b6a;
+  --add-card-bg: #fff;
+  --shadow-card-bg: #e3e2e6;
+  --text-color-dark: #9394a5;
+  --active-link: hsl(220, 98%, 61%);
+  --completed-task: #dbdbdd;
+  --bg-color: #fafafa;
+  --line-card: #e6e5ea;
+  --bg-color-check: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
