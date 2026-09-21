@@ -2,7 +2,7 @@
 
 Una aplicación avanzada de gestión de tareas (*Todo Management*) que expande las capacidades clásicas CRUD. Incorpora un sistema dinámico de filtrado, alternancia global de temas visuales (Dark/Light Mode), detección reactiva de viewports mediante JavaScript y un módulo interactivo de reordenamiento mediante la API nativa de arrastrar y soltar (*Drag and Drop*).
 
-🎯 **Demo en Vivo:** [Visita la aplicación desplegada](https://fabulous-biscuit-872b3a.netlify.app/)
+🎯 **Demo en Vivo:** [Visita la aplicación desplegada](https://todoapp-gab0o06.netlify.app/)
 
 ---
 
